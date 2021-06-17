@@ -14,7 +14,7 @@ class bcolors:
     UNDERLINE = '\033[4m'
 
 # Put your API key here
-apiKey = '588ab41cee2f41d0b946967069'
+apiKey = "API KEY HERE'
 
 # JSON Requester
 rpli = requests.get("https://api.checkwx.com/metar/RPLI?x-api-key=" + apiKey)
